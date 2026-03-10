@@ -5,8 +5,8 @@
   --color-dark: #0F172A;
   --color-accent: #00D1FF;
   --color-background-primary: #F8FAFC;
-  --font-sans: var(--font-geist-sans), sans-serif;
-  --font-mono: var(--font-geist-mono), monospace;
+  --font-sans: var(--font-inter), sans-serif;
+  --font-heading: var(--font-poppins), sans-serif;
 }
 
 body {
@@ -15,6 +15,15 @@ body {
   font-family: var(--font-sans);
   overflow-x: hidden;
   scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
 }
 
 .animate-float {
